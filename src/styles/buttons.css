@@ -1,0 +1,15 @@
+.taskInput__submit {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--clr-secondary);
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.taskInput__submit:hover {
+    background-color: #06b6d4;
+}

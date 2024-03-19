@@ -1,0 +1,22 @@
+.taskInput__form {
+    background-color: var(--clr-background);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem 1.5rem;
+}
+
+.taskInput__name {
+    padding: 0.25rem;
+    outline: none;
+    border: 1px solid var(--clr-secondary);
+}
+
+@media(min-width: 468px) {
+    .taskInput__form {
+        width: 400px;
+    }
+}
